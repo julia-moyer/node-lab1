@@ -1,3 +1,3 @@
-var dogNames = require('dog-names');
+const dogNames = require('dog-names');
 
 console.log(dogNames.maleRandom());
