@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"lint": "eslint index.js"
+    "lint": "eslint src",
+"build": "babel --presets env -d output src",
+"ci": "npm run lint && npm run build"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,8 @@
     "dog-names": "^2.0.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^6.3.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2"
