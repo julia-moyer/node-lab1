@@ -1,0 +1,22 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "lab 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julia-moyer/node-lab1.git"
+  },
+  "author": "jmoyer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/julia-moyer/node-lab1/issues"
+  },
+  "homepage": "https://github.com/julia-moyer/node-lab1#readme",
+  "dependencies": {
+    "dog-names": "^2.0.0"
+  }
+}
